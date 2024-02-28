@@ -16,7 +16,7 @@ CI-GNN: A Granger Causality-Inspired Graph Neural Network 🔥
 If you have any questions, suggestions, or would like to collaborate us on relevant topics, please feel free to contact us by [yusj9011@gmail.com](mailto:yusj9011@gmail.com) (Shujian Yu), kzzheng@stu.xjtu.edu.cn (Kaizhong Zheng).
 
 ## Reference
-'''
+```
 @article{zheng2024ci,
   title={Ci-gnn: A granger causality-inspired graph neural network for interpretable brain network-based psychiatric diagnosis},
   author={Zheng, Kaizhong and Yu, Shujian and Chen, Badong},
@@ -25,4 +25,4 @@ If you have any questions, suggestions, or would like to collaborate us on relev
   year={2024},
   publisher={Elsevier}
 }
-'''
+```
