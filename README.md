@@ -11,7 +11,9 @@ Despite of recent advances, existing GNN explainers usually suffer from one or m
 
 2.  **Ignorance of causal-effect relationships:** Most GNN explainers recognize predictive subgraphs only by the input-outcome associations rather than their intrinsic causal relationships, which may lead to the obtained explanations contain spurious correlations that are not trustable.
 
-3.  **Small-scale evaluations: ** In biomedical fields such as bioinformatics and neuroimaging, most GNN explainers are just applied to small-scale datasets, such as molecules.
+3.  **Small-scale evaluations:** In biomedical fields such as bioinformatics and neuroimaging, most GNN explainers are just applied to small-scale datasets, such as molecules.
+
+Thus, we propose a new built-in interpretable GNN to adress these issues. Our developed CI-GNN enjoys a few unique properties: the ability to produce instance-level explanation on edges; the causal-driven mechanism; and the ability to learn disentangled latent representations $\alpha$ and $\beta$, such that only $\alpha$ induces a subgraph $G_{\text{sub}}$ that is causally related to $Y$.
     
 ## The Architecture of CI-GNN
 
