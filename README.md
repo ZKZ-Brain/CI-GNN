@@ -4,6 +4,15 @@ CI-GNN: A Granger Causality-Inspired Graph Neural Network 🔥
 
 </h2>
 
+## Overview
+Despite of recent advances, existing GNN explainers usually suffer from one or more of the following issues:
+
+1.  **Post-hoc explanation:** Most explainers are post-hoc, in which another interpretive model needs to be created to explain a well-trained GNN.
+
+2.  **Ignorance of causal-effect relationships:** Most GNN explainers recognize predictive subgraphs only by the input-outcome associations rather than their intrinsic causal relationships, which may lead to the obtained explanations contain spurious correlations that are not trustable.
+
+3.  **Small-scale evaluations: ** In biomedical fields such as bioinformatics and neuroimaging, most GNN explainers are just applied to small-scale datasets, such as molecules.
+    
 ## The Architecture of CI-GNN
 
 ![](framework.png)
