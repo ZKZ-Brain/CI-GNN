@@ -21,6 +21,10 @@ Thus, we propose a new built-in interpretable GNN to adress these issues. Our de
 
 **Figure 1 ﻿Architecture of our proposed CI-GNN.**  The model consists of four modules: GraphVAE, causal effect estimator, causal subgraph generator and a basic classifier $\varphi$. Given an input Graph $G=\{(A,X)\}$, GraphVAE learns (disentangled) latent factors $Z=[\alpha;\beta]$. The causal effect estimator ensures that only $\alpha$ is causally related to label $Y$ by the conditional mutual information (CMI) regularization $I\left ( \alpha; Y|\beta \right )$. Based on $\alpha$, we introduce another linear decoder $\theta_2$ to generate causal subgraph $\mathcal{G}_{\text{sub}}$, which can then be used for graph classification by classifier $\varphi$.
 
+## Installation
+
+Note that we require `1.7.0 <= torch_geometric <= 2.0.2`. 
+
 ## Run CI-GNN
 
 Simply run `python main.py` to reproduce the results of MUTAG in the paper.
