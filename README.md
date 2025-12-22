@@ -31,7 +31,7 @@ Simply run `python main.py` to reproduce the results of MUTAG in the paper.
 
 ## Questions, Suggestions, and Collaborations
 
-If you have any questions, suggestions, or would like to collaborate us on relevant topics, please feel free to contact us by [yusj9011@gmail.com](mailto:yusj9011@gmail.com) (Shujian Yu), kzzheng@stu.xjtu.edu.cn (Kaizhong Zheng).
+If you have any questions, suggestions, or would like to collaborate us on relevant topics, please feel free to contact us by [yusj9011@gmail.com](mailto:yusj9011@gmail.com) (Shujian Yu), kzzheng@xjtu.edu.cn (Kaizhong Zheng).
 
 ## Reference
 ```
